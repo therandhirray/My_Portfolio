@@ -360,7 +360,7 @@ html{
     }
     .projectrow .project{
         width: 80%;
-        min-height: 90vh;
+        max-height: 90vh;
         padding-bottom: 20px;
     }
     .projectrow .project p{
