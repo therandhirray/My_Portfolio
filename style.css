@@ -269,7 +269,6 @@ html{
 /* PROJECT  PAGE*/
 
 .project{
-    /* background-color: red; */
     width: 100%;
     max-height: 100%;
     padding-top: 60px;
@@ -291,7 +290,7 @@ html{
     height: 100%;
     padding: 0 auto 2rem;
 }
-.projectbottom .firstbox{
+.projectbottom .projectrow{
     width: 100%;
     min-height: 50vh;
     display: flex;
@@ -300,7 +299,7 @@ html{
     padding: 20px;
     justify-content: space-around;
 }
-.firstbox .firstbox1{
+.projectrow .project{
     border: 2px solid #0ef;
     border-radius: 10%;
     width: 25%;
@@ -312,7 +311,7 @@ html{
     box-sizing: border-box;
     text-align: center;
 }
-.firstbox1 img{
+.project img{
     height: 32.5vh;
     width: 100%;
     margin-top: 10px;
@@ -320,76 +319,17 @@ html{
     background-size: cover;
     background-position: center;
 }
-.firstbox1 h5 {
+.project h5 {
     font-size: 20px;
     margin: 10px 0;
     color: #0ef;
 }
-.firstbox1 p {
+.project p {
     font-size: 16px;
     margin: 8px 0;
     color: #ededed;
 }
-.firstbox .firstbox2{
-    border: 2px solid #0ef;
-    border-radius: 10%;
-    width: 25%;
-    min-height: 65vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
-}
-.firstbox2 img{
-    height: 32.5vh;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
-}
-.firstbox2 h5 {
-    font-size: 20px;
-    margin: 10px 0;
-    color: #0ef;
-}
-.firstbox2 p {
-    font-size: 16px;
-    margin: 8px 0;
-    color: #ededed;
-}
-.firstbox .firstbox3{
-    border: 2px solid #0ef;
-    border-radius: 10%;
-    width: 25%;
-    min-height: 65vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
-}
-.firstbox3 img{
-    height: 32.5vh;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
-}
-.firstbox3 h5 {
-    font-size: 20px;
-    margin: 10px 0;
-    color: #0ef;
-}
-.firstbox3 p {
-    font-size: 16px;
-    margin: 8px 0;
-    color: #ededed;
-}
+
 .languages{
     width: 100%;
     display: flex;
@@ -414,41 +354,19 @@ html{
 }
 
 @media(max-width: 768px){
-    .firstbox{
+    .projectrow{
         flex-direction: column;
         gap: 30px;
     }
-    .firstbox .firstbox1{
+    .projectrow .project{
         width: 80%;
         min-height: 90vh;
         padding-bottom: 20px;
     }
-    .firstbox .firstbox1 p{
+    .projectrow .project p{
        margin-top: 30px;
     }
-    .firstbox .firstbox1 img{
-        height: 80%;   
-     }
-    .firstbox .firstbox2{
-        width: 80%;
-        min-height: 90vh;
-        padding-bottom: 20px;
-    }
-    .firstbox .firstbox2 p{
-       margin-top: 30px;
-    }
-    .firstbox .firstbox2 img{
-        height: 80%;   
-     }
-    .firstbox .firstbox3{
-        width: 80%;
-        min-height: 90vh;
-        padding-bottom: 20px;
-    }
-    .firstbox .firstbox3 p{
-       margin-top: 30px;
-    }
-    .firstbox .firstbox3 img{
+    .projectrow .project img{
         height: 80%;   
      }
 }
@@ -583,8 +501,6 @@ html{
         max-height: 100%;
     }
 }
-
-
 
 
 
