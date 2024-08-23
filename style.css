@@ -204,24 +204,29 @@ html{
     .first{
         width: 100%;
         flex-direction: column;
-        padding: 0;
+        /* padding: 0; */
         /* padding-top: 10vh; */
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .first_left{
         width: 100%;
-        max-height: 100vh;
         text-align: center;
         margin-bottom: 50px;
+        /* max-height: 100vh; */
+        padding-top: 20px;
     }
     .first_right{
-        width: 80%;
-        min-height: 100vw;
+        width: 100%;
         text-align: center;
-        margin-top: 20%;
+        /* min-height: 100vw; */
+        /* width: 80%; */
+        /* margin-top: 50px; */
         /* margin-bottom: 50px; */
+        margin-top: 20px;
     }
     .first_right img{
-        /* width: auto; */
+        width: 100%;
         height: auto;
     }
 }
