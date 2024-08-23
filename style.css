@@ -360,14 +360,14 @@ html{
     }
     .projectrow .project{
         width: 100%;
-        min-height: 90vh;
+        max-height: 90vh;
         padding-bottom: 20px;
     }
     .projectrow .project p{
        margin-top: 30px;
     }
     .projectrow .project img{
-        height: 80%;   
+        max-height: 100%;   
      }
 }
 
